@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "hebergements",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1, "nom": "Refuge Buffère" }, "geometry": { "type": "Point", "coordinates": [ 6.570764910353352, 45.012647403623724 ] } },
+{ "type": "Feature", "properties": { "fid": 2, "nom": "Gîte Le Lauzet" }, "geometry": { "type": "Point", "coordinates": [ 6.463718987571719, 45.015215266317689 ] } },
+{ "type": "Feature", "properties": { "fid": 3, "nom": "Refuge de l'Alpe de Villar d'Arène" }, "geometry": { "type": "Point", "coordinates": [ 6.384551820703106, 44.9962129385748 ] } },
+{ "type": "Feature", "properties": { "fid": 4, "nom": "Départ" }, "geometry": { "type": "Point", "coordinates": [ 6.505068316840629, 44.977987126262761 ] } }
+]
+}
