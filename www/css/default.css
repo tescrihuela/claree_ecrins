@@ -10,3 +10,10 @@
     overflow: hidden;
     padding: 0;
 }
+
+#download_gpx {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    z-index: 1000;
+}

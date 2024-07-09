@@ -37,7 +37,8 @@ ui <- fluidPage(
           height = "100%",
           width = "100%"
         )
-      )
+      ),
+      downloadButton("download_gpx", "Télécharger le fichier GPX"),
     )
   )
 )
@@ -94,6 +95,15 @@ server <- function(input, output, session) {
       options = layersControlOptions(collapsed = FALSE)
     )
   })
+
+  output$download_gpx <- downloadHandler(
+    filename = function() {
+      "trace.gpx"
+    },
+    content = function(file) {
+      file.copy("www/data/trace.gpx", file)
+    }
+  )
 }
 
 shinyApp(ui, server)
