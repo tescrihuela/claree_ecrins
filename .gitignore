@@ -1,1 +1,13 @@
-rsconnect**
+**/*.spec
+**/*.py[cod]
+**/build
+**/__pycache__
+**/.vscode
+**/*venv
+**/*heroku
+**/*swp
+**/*.Rhistory
+**/rsconnect.json
+**/rsconnect/
+**/pgconnect.json
+**/.Renviron
